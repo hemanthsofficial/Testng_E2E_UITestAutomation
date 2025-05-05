@@ -76,6 +76,7 @@ public class BaseTest {
         if (bot != null) {
             Log.info("Closing browser.");
             bot.quit();
+            bot = null;
         }
     }
 }
